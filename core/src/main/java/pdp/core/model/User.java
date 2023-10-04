@@ -1,4 +1,4 @@
-package pdp.core.models.entities;
+package pdp.core.model;
 
 import javax.persistence.*;
 

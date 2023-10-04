@@ -1,9 +1,9 @@
-package pdp.core.api.crud;
+package pdp.core.api.v1;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import pdp.core.models.entities.User;
-import pdp.core.models.services.UserService;
+import pdp.core.model.User;
+import pdp.core.services.UserService;
 
 import java.util.List;
 

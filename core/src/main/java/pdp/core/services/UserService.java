@@ -1,9 +1,9 @@
-package pdp.core.models.services;
+package pdp.core.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import pdp.core.models.entities.User;
-import pdp.core.models.repositories.UserRepository;
+import pdp.core.model.User;
+import pdp.core.repository.UserRepository;
 
 import java.util.List;
 

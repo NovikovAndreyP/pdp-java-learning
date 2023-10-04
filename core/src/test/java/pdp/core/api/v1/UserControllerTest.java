@@ -1,4 +1,4 @@
-package pdp.core.api.crud;
+package pdp.core.api.v1;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,7 +7,7 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.boot.web.server.LocalServerPort;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import pdp.core.models.entities.User;
+import pdp.core.model.User;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
